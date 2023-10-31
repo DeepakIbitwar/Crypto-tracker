@@ -41,9 +41,9 @@ function MainComponent() {
 
 <RWebShare
         data={{
-          text: "Like humans, flamingos make friends for life",
-          url: "https://on.natgeo.com/2zHaNup",
-          title: "Flamingos",
+          text: "Track Your Crypto ",
+          url: "https://cryptos-tracking-app.netlify.app/",
+          title: "Crypto-Tracker-app",
         }}
         onClick={() => console.log("shared successfully!")}
       >
