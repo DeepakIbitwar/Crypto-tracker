@@ -1,0 +1,90 @@
+ .list-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+} 
+
+.list-row td{
+    text-align: left;
+    width: 18%;
+}
+.td-img{
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+.list-row:hover{
+    
+background-color: var(--darkgray);
+transition: all 0.3s;
+}
+
+.td-center-align{
+    text-align:center ;
+}
+.td-right-align{
+    text-align: right;
+}
+.mobile-td-mkt{
+    display: none;
+}
+
+@media only screen and (max-width : 1100px){
+    .td-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 1000px){
+    .td-total-volume{
+           display: none;
+    }
+}
+
+@media only screen and (max-width : 800px){
+    .desktop-td-mkt{
+        display: none;
+    }
+    .mobile-td-mkt{
+        display: block;
+    }
+     
+    .coin-logo{
+        height: 2rem;
+        width: 2rem;
+        
+        }
+        .coin-symbol{
+
+            color: var(--white);
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 0.75rem;
+            margin: 0;
+        }
+
+        .price-chip{
+
+            /* border: 2px solid green;
+            border-radius: 2rem;
+            padding: 0.35rem 1.25rem;
+            text-align: center; */
+            font-weight: 500;
+            color: green;
+            font-size: 0.75rem;
+            min-width: 60px;
+        
+        
+        }
+        .coin-price {
+            /* color: green; */
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+}
+
+
